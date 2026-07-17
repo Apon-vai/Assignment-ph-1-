@@ -412,6 +412,10 @@ h4{
   display: grid;
   grid-template-columns: repeat(3,1fr);
 }
+.footer-child-2 a{
+  text-decoration: none;
+
+}
 
 
 
