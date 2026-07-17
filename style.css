@@ -259,3 +259,123 @@ h3{
   text-align: left;
 }
 
+.pn{
+  position: relative;
+  left: -2px;
+  color:#888888FF;
+  font-size: 13px;
+}
+.pm{
+  position: relative;
+  left: -1px;
+  color:#888888FF;
+  font-size: 13px;
+}
+h4{
+  color:#888888FF;
+  font-size: 13px;
+
+}
+.h4-blue{
+  color: #93c5fdFF;
+}
+
+.btn-3{
+ 
+  padding: 6px 8px;
+  border-radius: 5px;
+  font-weight:600;
+ font-size: 14;
+ width: 250px;
+  height:40px;
+  color:#2563ebFF;
+  border: 2px solid  #2563ebFF;
+  
+  cursor: pointer;
+  border-radius: 8px;
+  position:relative;
+  right: -20px;
+  bottom: -10px;
+  background-color: #ffffff;
+ 
+
+
+}
+.btn-4{
+  background-color: rgb(76, 76, 249);
+  padding: 6px 8px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  width: 250px;
+  height:40px;
+  color: #ffffffFF;;
+  
+  cursor: pointer;
+  border-radius: 8px;
+  position: relative;
+  right: -20px;
+   bottom: -10px;
+  border: none;
+
+
+}
+.btn-5{
+    background-color: #ffffff;
+  padding: 6px 8px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  width: 250px;
+  height:40px;
+ 
+
+  border:2px solid rgb(83, 82, 82) ;
+  cursor: pointer;
+  border-radius: 8px;
+  position: relative;
+  right: -20px;
+  bottom: -10px;
+
+
+}
+.card-pro-card{
+  background-color: #0d1b2aFF;;
+}
+.pro-child{
+ color:  #ffffffFF;
+}
+.FAQ-parent{
+  text-align: center;
+  margin: 40px ;
+}
+
+.FAQ-clid{
+
+  display: grid;
+  grid-template-rows: repeat(5,1fr);
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 0 40px;
+  
+
+}
+
+.common-btn-6 {
+  
+
+  background-color: rgb(76, 76, 249);
+  padding: 6px 8px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 18px;
+  width: 200px;
+  height: 45px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  position: relative;
+ right: -550px;
+ bottom: -40px;
+}
