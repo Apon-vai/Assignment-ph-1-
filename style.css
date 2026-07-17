@@ -207,17 +207,21 @@ h3{
 
 
 .card-parent{
-  display: flex;
-  gap: 20px;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ max-width: 1100px;
+ position: relative;
+ right: -90px;
+
   
-  align-items:stretch;
+ 
   
 }
 .card {
   width: 290px;
   min-height: 330px;
 
-  padding: 26px;
+ padding: 26px;
 
   border: 1px solid #dfe3e8;
   border-radius: 10px;
@@ -225,8 +229,9 @@ h3{
   background-color: #ffffff;
 }
 .card ul {
-   display: flex;
+   display:block;
   flex-direction: column;
+  
   
   border-top: 1px solid #e5e7eb;
   
@@ -241,15 +246,16 @@ h3{
 
 
 
-.card ul li {
-  
 
-}
 .card ul li::before {
   content: "•";          
   color: #007BFF;      
   font-weight: bold;
   margin-right: 6px;   
   
+}
+.card ul li p{
+  
+  text-align: left;
 }
 
