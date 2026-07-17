@@ -347,7 +347,7 @@ h4{
 }
 .FAQ-parent{
   text-align: center;
-  margin: 40px ;
+  margin:40px 40px 0px 40px ;
 }
 
 .FAQ-clid{
@@ -357,6 +357,7 @@ h4{
   justify-content: space-evenly;
   gap: 20px;
   padding: 0 40px;
+  margin-top: 20px;
   
 
 }
@@ -379,3 +380,41 @@ h4{
  right: -550px;
  bottom: -40px;
 }
+
+
+.footer-parent{
+  margin-top: 60px;
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  text-decoration: none;
+
+}
+.footer-child-2 img {
+  
+  position: relative;
+  bottom: -5px;
+
+  height: 20px;
+  width: auto;
+}
+
+.footer-child img{
+  margin-left: 40px;
+  height: 60px;
+  width: auto;
+}
+.footer-copy{
+  margin-top: 40px;
+}
+.footer-child-2{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+
+
+
+
+  
